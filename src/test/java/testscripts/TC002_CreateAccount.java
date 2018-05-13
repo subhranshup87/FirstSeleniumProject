@@ -15,6 +15,8 @@ public class TC002_CreateAccount extends TestBase{
 	CreateAnAccount CreateAccount;
 	SignIn signin;
 	
+	
+	//launch Browser
 	@BeforeClass
 	   public void OpenBrowser() throws IOException {
 		   init();
